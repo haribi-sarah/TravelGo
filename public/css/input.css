@@ -1,1 +1,12 @@
 @import "tailwindcss";
+@theme{
+
+    --color-alpha:#fe7038;
+    --color-beta:#f6b78a;
+    --color-bg:#f9f9f9;
+    --color-footer:#1f242a;
+
+
+
+
+}
