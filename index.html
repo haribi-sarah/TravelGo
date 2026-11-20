@@ -72,7 +72,29 @@
 
       </section>
       <section id="sarah"></section>
-      <section id="mohammed"></section>
+      <section id="mohammed" class="flex flex-col items-center gap-[2rem] bg-bg py-[2rem]">
+         <div class="flex flex-col items-center">
+          <p class="text-alpha text-xs tracking-[0.2rem] font-semibold pt-4 uppercase">Get in touch</p>
+          <h1 class="text-4xl font-bold py-4 capitalize">plan your next trip</h1>
+          <p class="text-gray-500 text-sm ">Have questions? Send us a message.</p>
+        </div>
+        <div class=" shadow-xl/30 flex flex-col  gap-[1rem] bg-white w-[40%] px-[2rem] py-[3rem] rounded-md  ">
+            <div class="flex flex-col gap-[0.5rem] ">
+                <label for="Full_name" class="font-semibold">Full name</label>
+                 <input type="text"  id="Full_name" placeholder="Enter your name"  class=" flex items-center border border-solid border-gray-300 border-[1px] rounded-md pl-[1rem] py-[0.5rem]">
+            </div>
+            <div class="flex flex-col gap-[0.5rem]">
+                <label for="email" class="font-semibold">Email Adress</label>
+                <input type="email"  id="email" placeholder="Enter your email" required class=" flex items-center border border-solid border-gray-300 border-[1px] rounded-md  pl-[1rem] py-[0.5rem]">
+            </div>
+            <div class="flex flex-col gap-[0.5rem]">
+                <label for="message">Your message</label>
+                <textarea  id="message" rows="5" placeholder="Your message"  class=" pt-[0.5rem]   pl-[1rem] border  border-solid border-gray-300 border-[1px] rounded-md "></textarea>
+            </div>
+            <button class="bg-alpha  py-[0.5rem] text-white rounded-md font-semibold">Send Message</button>
+        </div>
+
+      </section>
     </main>
     <footer id="sarah">
 
